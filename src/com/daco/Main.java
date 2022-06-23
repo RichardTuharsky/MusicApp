@@ -3,11 +3,12 @@ package com.daco;
 public class Main {
     public static void main(String[] args) {
 
-        Album4 album = new Album4(name: "Album1", artist: "AC/DC");
+        Album album = new Album("Album1","AC/DC");
 
-        album.addSong(title: "TNT", duration: 4.5);
-        album.addSong(title: "Highway to hell", duration: 3.5);
-        album.addSong(title: "Next song", duration: 4.7);
+        album.addSong("TNT",4.5);
+        album.addSong("Song2",3.5);
+        album.addSong("Song3",4.1);
+
 
     }
 }
